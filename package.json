@@ -1,0 +1,52 @@
+{
+  "name": "think-jest",
+  "description": "application created by thinkjs",
+  "version": "1.0.0",
+  "author": "DizzyWu <wuyun90320@163.com>",
+  "scripts": {
+    "start": "node development.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "lint-fix": "eslint --fix src/"
+  },
+  "dependencies": {
+    "think-cache": "^1.0.0",
+    "think-session": "^1.0.0",
+    "think-cache-file": "^1.0.8",
+    "think-model": "^1.0.0",
+    "think-session-file": "^1.0.5",
+    "think-view": "^1.0.0",
+    "think-view-nunjucks": "^1.0.1",
+    "think-model-mysql": "^1.0.0",
+    "think-logger3": "^1.0.0",
+    "thinkjs": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "debug": "^4.3.2",
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.0",
+    "jest": "^27.0.6",
+    "node-fetch": "^2.6.1",
+    "nyc": "^7.0.0",
+    "think-watcher": "^3.0.0"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "readmeFilename": "README.md",
+  "thinkjs": {
+    "metadata": {
+      "name": "think-jest",
+      "description": "application created by thinkjs",
+      "author": "DizzyWu <wuyun90320@163.com>",
+      "babel": false
+    },
+    "projectName": "think-jest",
+    "template": "C:\\Users\\wuyun\\AppData\\Roaming\\npm\\node_modules\\think-cli\\default_template",
+    "clone": false,
+    "isMultiModule": false
+  }
+}
